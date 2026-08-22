@@ -46,8 +46,43 @@ class dowhile {
             System.out.println("hello");
             i ++;
         } while( i <= 5 );
+   }
+}
+
+// BREAK STATREMENT IS USED TO EXITTHEW LOOP 
+
+
+// Q3 print reverse of the number 
+class reverse{
+    public static void main( String [] args){
+int n = 29039;
+
+while ( n > 0 ){
+    int lastdigit = n % 10;     // ye last digit ko lane kjeliye % iska use hota hai 
+    System.out.print(lastdigit + " ");
+     n = n / 10;                 // and here to remove last digit / iska suse hota hai 
+
+}
+System.out.println();
     }
+
 }
 
 
-// BREAK STATREMENT IS USED TO EXITTHEW LOOP 
+// Q5 reverse the given number 
+class practise {
+    public static void main ( String [] args ){
+int n = 10899;
+int rev = 0; // dekho ismeek var leliya jisnme valkue store krani hai 
+
+while( n > 0)  { // ye loop calega jab tak 0 na hojaye n 
+int lastdigit =  n % 10 ; // fir ek ek krke last digit leni hogi fir age use rev mai daldenge 
+rev = ( rev * 10 ) + lastdigit; // rev jo bnaya hai usme rev * 10 plus krdenge lastdigit jo niklenge n maise 
+n = n / 10; // fir bs n ko update n ko 0 krbe keloie 
+
+}
+
+System.out.print(rev); // rev mai bhara hai toih print karvadenge 
+
+    }
+}
