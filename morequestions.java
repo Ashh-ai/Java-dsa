@@ -1,8 +1,5 @@
-public import java.io.*;
+
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 //   HACKER RANK QUESTIONS 
 // You are given marks of a student as input. Display a correct message based on the following rules:
@@ -12,9 +9,10 @@ import java.util.regex.*;
 // for marks above 70 and less than equal to 80, print "Fair".
 // for marks above 60 and less than equal to 70, print "Meets Expectations".
 // for marks below and equal to 60, print "Below Expectations".
-public class Solution {
-    public static void main(String[] args) {
+public class morequestions {
+    public static void main (String[] args) {
   Scanner sc = new Scanner(System.in);
+  System.out.println("enter number ");
   int N = sc.nextInt();
  
    if ( N > 90 ){
@@ -35,7 +33,7 @@ public class Solution {
   }
   
     }
-} {
+} 
     
-}
+
 
